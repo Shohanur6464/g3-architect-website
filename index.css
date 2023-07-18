@@ -20,7 +20,7 @@ nav{
     display: flex;
     justify-content: space-between;
 }
-.nav-tittle{
+.nav-tittle .facts-tittle{
     font-size: 3rem;
     font-weight: 700px;
     color: #131313;
@@ -106,6 +106,33 @@ main{
 .teams-tittle .features{
     color: #ff900e;
     font-weight: 700;
+}
+.facts-card-container{
+    display: flex;
+    justify-content: space-around;
+}
+
+.facts-card-container .card{
+    border-radius: 5px;
+    border: 1px solid #ff900e;
+}
+.card{
+    align-items: center;
+    text-align: center;
+    padding: 30px;
+}
+
+.facts-card-container .card-title{
+    font-weight: 600;
+    color: #727272;
+    font-size: 1.25rem;
+    margin-top: 5px;
+}
+.facts-card-container .card-stats{
+    font-size: 3rem;
+    color: #424242;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 /* responsive media for small device */
